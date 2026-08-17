@@ -17,9 +17,10 @@ while(i <=15) {
 
 // while
 
+let frutas = ["fresa", "mango","manzana"]
 
-
-
-
+frutas.forEach((frutas, i) => {
+    console.log(frutas);
+});
 
 
