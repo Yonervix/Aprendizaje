@@ -1,16 +1,8 @@
-const readline = require('readline').createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+let miapellido = "espinal"
 
-console.log("Calculadora de suma");
+let minombre = "Yonervix, " + miapellido
 
-readline.question("Introduce el primer número: ", (n1) => {
-  readline.question("Introduce el segundo número: ", (n2) => {
-    const suma = Number(n1);
-    const suma3 = Number(n2);
-    const resultado = suma + suma3;
-    console.log("El resultado de la suma es: " + resultado);
-    readline.close();
-  });
-});
+console.log("Mi nombre completo es: " + minombre)
+
+
+console.log("longitud de mi nombre: " + minombre.length)

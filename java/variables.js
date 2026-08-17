@@ -1,6 +1,6 @@
-const hola = "21"
+let suma = 5
+let suma2 = 15
 
-let edadDeElla = 21
+let resultado = suma + suma2
+console.log("El resultado de la suma es: " + resultado)
 
-
-console.log(`mi edad es : ${hola}` , ` y la edad de edad ella es : ${edadDeElla}`)
