@@ -21,3 +21,23 @@ function CalcularEdad(añoNacimiento) {
 
 CalcularEdad(2005);
 
+//function con for 
+
+
+function nombre() {
+    console.log("hola mundo");
+}
+
+for (let i =0; i<=5; i++) {
+    nombre();
+}
+
+
+function nombre1() {
+    let numero1 = 1 * 5;
+    console.log(numero1);
+}
+
+for (let i =0; i<=6; i++) {
+    nombre1();
+}
